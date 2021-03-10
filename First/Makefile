@@ -8,14 +8,12 @@ mylib.o: mylib.c
 
 main: main.o mylib.o
 	gcc -std=c89 -o main main.o mylib.o
-	del /s main.o
 
 main_test.o: main_test.c
 	gcc -std=c89 -c main_test.c
 
 main_test: main_test.o
 	gcc -std=c89 -o main_test -Dmain_main main_test.o mylib.o
-	del /s main_test.o mylib.o
 
 runTest:
 	./main_test

@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include "mylib.h"
 
-const char * to_string(const int number)
-{
+const char * to_string(const int number) {
 if (number <= 10) {
         switch (number)
         {
@@ -59,7 +58,7 @@ if (number <= 10) {
             switch (remain)
             {
             case 0:
-               return "twenty";
+                return "twenty";
             case 1:
                 return "twenty one";
             case 2:
@@ -83,7 +82,7 @@ if (number <= 10) {
             switch (remain)
             {
             case 0:
-               return "thirty";
+                return "thirty";
             case 1:
                 return "thirty one";
             case 2:
@@ -108,7 +107,7 @@ if (number <= 10) {
             switch (remain)
             {
             case 0:
-               return "forty";
+                return "forty";
             case 1:
                 return "forty one";
             case 2:
@@ -132,7 +131,7 @@ if (number <= 10) {
             switch (remain)
             {
             case 0:
-               return "fifty";
+                return "fifty";
             case 1:
                 return "fifty one";
             case 2:
@@ -156,7 +155,7 @@ if (number <= 10) {
             switch (remain)
             {
             case 0:
-               return "sixty";
+                return "sixty";
             case 1:
                 return "sixty one";
             case 2:

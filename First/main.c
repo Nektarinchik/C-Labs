@@ -3,12 +3,11 @@
 
 const char * to_string(const int number);
 
-int main()
-{
+int main() {
     int number;
-    while(1) {
+    while (1) {
         printf("Enter your number: ");
-        if(scanf("%d", &number) != 1 || number < 1 || number > 100) {
+        if (scanf("%d", &number) != 1 || number < 1 || number > 100) {
             printf("Wrong input, try again\n");
             while (getchar() != '\n') { ; }         
         }

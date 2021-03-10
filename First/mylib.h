@@ -1,0 +1,1 @@
+const char * to_string(const int number);
